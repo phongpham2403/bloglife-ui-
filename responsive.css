@@ -1,0 +1,35 @@
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header_container {
+        display: none;
+    }
+
+    .slider_image_des h1 {
+        display: none;
+    }
+
+    .modal {
+        width: 340px;
+    }
+}
+
+
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .modal {
+        top: 20%;
+        left: 95%;
+        width: 600px;
+        transform: translate(-112%, -245%);
+    }
+    #nav-input:checked ~ .modal {
+        transform: translate(-112%, -40%);
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    
+}

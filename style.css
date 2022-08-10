@@ -253,6 +253,7 @@ html {
 .blog_sidebar {
     flex: 1;
     display: flex;
+    padding-left: 12px;
     flex-direction: column;
 }
 
@@ -372,9 +373,6 @@ html {
 
 /* Sidebar */
 
-.blog_sidebar {
-    padding-left: 30px;
-}
 
 .blog_sidebar_introduce {
     display: flex;
@@ -419,8 +417,8 @@ html {
 }
 
 .blog_post_item {
-    display: flex;
     padding: 16px;
+    display: flex;
     border-bottom: 1px solid #ccc;
 }
 
